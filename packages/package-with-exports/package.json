@@ -1,0 +1,10 @@
+{
+    "name": "package-with-exports",
+    "version": "1.0.0",
+    "author": "Franklin Davenport <sparebytes@gmail.com>",
+    "license": "MIT",
+    "exports": {
+        ".": "./main.js",
+        "./sub/other": "./other.js"
+    }
+}
